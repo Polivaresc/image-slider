@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 500px;
+    width: auto;  
+}
+
+.image-container {
+    margin-top: 100px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(209, 206, 218);
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
