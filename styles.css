@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(34, 33, 36);
 }
 
 img {
@@ -17,10 +18,40 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(209, 206, 218);
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
 }
 
 .hidden {
     display: none;
+}
+
+
+button {
+    font-size: xx-large;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#navigation-circles {
+    display: flex;
+    gap: 20px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.full {
+    background-color: white;
 }
