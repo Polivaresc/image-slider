@@ -22,14 +22,22 @@ img {
     padding: 10px;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .hidden {
     display: none;
 }
 
 .current {
-    
+    animation: fadeIn ease-in 1.5s;
 }
-
 
 button {
     font-size: xx-large;
