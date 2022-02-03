@@ -14,6 +14,8 @@ nextButton.addEventListener('click', nextSlide)
 
 previousButton.addEventListener('click', previousSlide)
 
+setInterval(nextSlide, 5000)
+
 
 function nextSlide() {
     let nextIx
